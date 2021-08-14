@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap');
+
+
+body {
+    margin: 0;
+    font-family: "Rubik", sans-serif;
+    background: red;
+    color: hsl(0, 0%, 59%);
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+.input-form {
+    position: relative;
+    padding: 50px 80px;
+    background: linear-gradient(90deg, rgba(70,64,154,1) 35%, rgba(96,134,243,1) 100%);
+   color: #fff;
+}
+
+.input-form h1 {
+    font-weight: 700;
+    text-align: center;
+}
+
+.input-form form  {
+    width: 50%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: 30px auto 0 auto;
+}
+
+.input-form form input {
+    display: inline-block;
+    width: 70%;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    padding: 15px 20px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.input-form form button {
+    background: hsl(0, 0%, 17%);
+    border: none;
+    padding: 15px 20px;
+    color: #fff;
+    font-weight: 700;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.input-form .result {
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    right: 0;
+    transform: translateX(-50%);
+    width: 80%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    background: #fff;
+    border-radius: 10px;
+    padding: 30px 20px;
+}
+
+.input-form .result div {
+    width: auto;
+}
+
+.input-form .result div p:not(.content) {
+    letter-spacing: 3px;
+    color: hsl(0, 0%, 17%);
+}
+
+.input-form .result div p.content {
+    color: #1F1F1F;
+    font-size: 20px;
+    margin-top: 10px;
+    font-weight: 500;
+}
