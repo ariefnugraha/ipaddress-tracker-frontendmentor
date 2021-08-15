@@ -4,7 +4,6 @@
 body {
     margin: 0;
     font-family: "Rubik", sans-serif;
-    background: red;
     color: hsl(0, 0%, 59%);
 }
 
@@ -66,6 +65,7 @@ p, h1, h2, h3, h4, h5, h6 {
     background: #fff;
     border-radius: 10px;
     padding: 30px 20px;
+    z-index: 999;
 }
 
 .input-form .result div {
@@ -82,4 +82,24 @@ p, h1, h2, h3, h4, h5, h6 {
     font-size: 20px;
     margin-top: 10px;
     font-weight: 500;
+}
+
+#mapid {
+    height: 500px;
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+    background: rgb(70,64,154);
+    color: #fff;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
 }
