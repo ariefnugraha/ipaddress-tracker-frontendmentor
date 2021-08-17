@@ -27,13 +27,12 @@ Users should be able to:
 ### Screenshot
 
 ![Desktop Version](./design/desktop.png)
-![Mobile Version]('./design/mobile.png')
+![Mobile Version]('./design/mobile.png)
 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site: https://ipaddress-tracker-frontendmentor.vercel.app/
 
 ## My process
 
