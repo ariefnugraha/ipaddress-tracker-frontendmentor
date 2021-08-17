@@ -146,6 +146,7 @@ footer a:hover {
 
     .input-form .result {
         margin-left: -20px;
+        left: 52%;
     }
 
     .input-form .result > * {
