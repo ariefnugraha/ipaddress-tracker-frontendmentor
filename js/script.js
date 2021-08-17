@@ -4,6 +4,10 @@ let map = L.map('mapid');
 
 //INITIALIZE MAP
 function setMap(longitude, latitude) {
+    if(screen.width < 992) {
+        document.getElementById("mapid").style.height = `${screen.height}px`;
+    }
+    
     map.setView([longitude, latitude], 50);
 
     L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
